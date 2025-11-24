@@ -39,7 +39,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              Hi, I'm <span className="gradient-text">Alex Johnson</span>
+              Hi, I'm <span className="gradient-text">Nicolas Campanario</span>
             </motion.h1>
             
             <motion.h2 
@@ -48,7 +48,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Full Stack Developer & UI/UX Designer
+              Back end Developer
             </motion.h2>
             
             <motion.p 
@@ -57,8 +57,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              I create beautiful, functional, and user-centered digital experiences. 
-              Passionate about clean code, innovative design, and cutting-edge technology.
+              I develop efficient and secure back end solutions. Passionate about clean code and cutting-edge technology.
             </motion.p>
             
             <motion.div 
