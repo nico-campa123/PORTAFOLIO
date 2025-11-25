@@ -15,8 +15,8 @@ const Projects = () => {
       title: 'EVA Security',
       description: 'Un sistema de seguridad para empresas que permite monitorear y controlar el acceso a los edificios y areas de la empresa. Potenciado con IA para analisis de amenazas y deteccion de intrusos.',
       image: '/api/placeholder/400/300',
-      technologies: ['React', 'Node.js', 'MongoDB', 'OpenCV'],
-      github: 'https://github.com',
+      technologies: ['React', 'OpenCV', 'Python', 'Render'],
+      github: 'https://github.com/dantecanti',
       live: 'https://example.com',
       featured: true
     },
@@ -25,8 +25,8 @@ const Projects = () => {
       title: 'MBN Finances',
       description: 'Un sistema de gestion de finanzas para usuarios autenticados que permite llevar un control de los ingresos y gastos.',
       image: '/api/placeholder/400/300',
-      technologies: ['React', 'Firebase', 'Material-UI', 'Socket.io'],
-      github: 'https://github.com',
+      technologies: ['JavaScript', 'FastAPI', 'Figma'],
+      github: 'https://github.com/MaurusPerry',
       live: 'https://example.com',
       featured: true
     },
@@ -35,8 +35,8 @@ const Projects = () => {
       title: 'Manpa Tech',
       description: 'Una pagina de analisis de exoplanetas basada en datos publicos de la NASA.',
       image: '/api/placeholder/400/300',
-      technologies: ['JavaScript', 'API', 'Chart.js', 'CSS3'],
-      github: 'https://github.com',
+      technologies: ['JavaScript', 'FastAPI', 'Figma'],
+      github: 'https://github.com/nico-campa123',
       live: 'https://example.com',
       featured: false
     }
