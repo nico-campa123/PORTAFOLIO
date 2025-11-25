@@ -12,18 +12,18 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.',
+      title: 'EVA Security',
+      description: 'Un sistema de seguridad para empresas que permite monitorear y controlar el acceso a los edificios y areas de la empresa. Potenciado con IA para analisis de amenazas y deteccion de intrusos.',
       image: '/api/placeholder/400/300',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      technologies: ['React', 'Node.js', 'MongoDB', 'OpenCV'],
       github: 'https://github.com',
       live: 'https://example.com',
       featured: true
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+      title: 'MBN Finances',
+      description: 'Un sistema de gestion de finanzas para usuarios autenticados que permite llevar un control de los ingresos y gastos.',
       image: '/api/placeholder/400/300',
       technologies: ['React', 'Firebase', 'Material-UI', 'Socket.io'],
       github: 'https://github.com',
@@ -32,40 +32,10 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'A responsive weather application with location-based forecasts, interactive maps, and detailed weather analytics.',
+      title: 'Manpa Tech',
+      description: 'Una pagina de analisis de exoplanetas basada en datos publicos de la NASA.',
       image: '/api/placeholder/400/300',
       technologies: ['JavaScript', 'API', 'Chart.js', 'CSS3'],
-      github: 'https://github.com',
-      live: 'https://example.com',
-      featured: false
-    },
-    {
-      id: 4,
-      title: 'Portfolio Website',
-      description: 'A modern, responsive portfolio website with smooth animations, dark mode, and glassmorphism design.',
-      image: '/api/placeholder/400/300',
-      technologies: ['React', 'Framer Motion', 'CSS3', 'Responsive'],
-      github: 'https://github.com',
-      live: 'https://example.com',
-      featured: false
-    },
-    {
-      id: 5,
-      title: 'Social Media Dashboard',
-      description: 'A comprehensive dashboard for managing social media accounts with analytics, scheduling, and content management.',
-      image: '/api/placeholder/400/300',
-      technologies: ['React', 'Express', 'PostgreSQL', 'Chart.js'],
-      github: 'https://github.com',
-      live: 'https://example.com',
-      featured: false
-    },
-    {
-      id: 6,
-      title: 'Mobile Banking App',
-      description: 'A secure mobile banking application with biometric authentication, transaction history, and real-time notifications.',
-      image: '/api/placeholder/400/300',
-      technologies: ['React Native', 'Node.js', 'MySQL', 'JWT'],
       github: 'https://github.com',
       live: 'https://example.com',
       featured: false

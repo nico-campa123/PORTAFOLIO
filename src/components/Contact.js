@@ -34,8 +34,8 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       title: 'Email',
-      value: 'alex.johnson@email.com',
-      link: 'mailto:alex.johnson@email.com'
+      value: 'nicolas.campanario@gmail.com',
+      link: 'mailto:nicolas.campanario@gmail.com'
     },
     {
       icon: <FaPhone />,
@@ -46,7 +46,7 @@ const Contact = () => {
     {
       icon: <FaMapMarkerAlt />,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Buenos Aires, Argentina',
       link: '#'
     }
   ];
@@ -90,11 +90,11 @@ const Contact = () => {
             variants={itemVariants}
           >
             <h2 className="section-title">
-              Get In <span className="gradient-text">Touch</span>
+              Ponte en <span className="gradient-text">contacto</span>
             </h2>
             <p className="section-description">
-              I'm always interested in new opportunities and exciting projects. 
-              Let's discuss how we can work together!
+              Estoy abierto a nuevas oportunidades y proyectos interesantes.
+              No dudes en contactarme!
             </p>
           </motion.div>
 
@@ -103,7 +103,7 @@ const Contact = () => {
               className="contact-info"
               variants={itemVariants}
             >
-              <h3 className="info-title">Contact Information</h3>
+              <h3 className="info-title">Informacion de contacto</h3>
               <div className="info-list">
                 {contactInfo.map((info, index) => (
                   <motion.a
@@ -125,7 +125,6 @@ const Contact = () => {
               </div>
 
               <div className="social-section">
-                <h4 className="social-title">Follow Me</h4>
                 <div className="social-links">
                   {socialLinks.map((social, index) => (
                     <motion.a
@@ -161,7 +160,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="name"
-                  placeholder="Your Name"
+                  placeholder="Tu nombre"
                   value={formData.name}
                   onChange={handleChange}
                   required
@@ -173,7 +172,7 @@ const Contact = () => {
                 <input
                   type="email"
                   name="email"
-                  placeholder="Your Email"
+                  placeholder="Email"
                   value={formData.email}
                   onChange={handleChange}
                   required
@@ -185,7 +184,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="subject"
-                  placeholder="Subject"
+                  placeholder="Tema"
                   value={formData.subject}
                   onChange={handleChange}
                   required
@@ -196,7 +195,7 @@ const Contact = () => {
               <div className="form-group">
                 <textarea
                   name="message"
-                  placeholder="Your Message"
+                  placeholder="tu mensaje"
                   value={formData.message}
                   onChange={handleChange}
                   required
@@ -211,7 +210,7 @@ const Contact = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Send Message
+                Enviar mensaje
               </motion.button>
             </motion.form>
           </div>

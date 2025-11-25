@@ -12,6 +12,15 @@ const Skills = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
+  // Function to convert numeric level to proficiency label
+  const getProficiencyLabel = (level) => {
+    if (level >= 90) return 'Experto';
+    if (level >= 80) return 'Avanzado';
+    if (level >= 70) return 'Proficiente';
+    if (level >= 60) return 'Intermedio';
+    return 'Beginner';
+  };
+
   const skillCategories = [
     {
       title: 'Frontend',
@@ -27,7 +36,7 @@ const Skills = () => {
       skills: [
         { name: 'Node.js', icon: <FaNodeJs />, level: 80, color: '#339933' },
         { name: 'Python', icon: <FaPython />, level: 75, color: '#3776ab' },
-        { name: 'Database', icon: <FaDatabase />, level: 85, color: '#336791' }
+        { name: 'SQL', icon: <FaDatabase />, level: 85, color: '#336791' }
       ]
     },
     {
@@ -74,10 +83,10 @@ const Skills = () => {
             variants={itemVariants}
           >
             <h2 className="section-title">
-              My <span className="gradient-text">Skills</span>
+              Mis <span className="gradient-text">Habilidades</span>
             </h2>
             <p className="section-description">
-              Here are the technologies and tools I work with to bring ideas to life.
+              Estas son las tecnologias y herramientas que uso para llevar ideas a la vida.
             </p>
           </motion.div>
 
@@ -109,7 +118,7 @@ const Skills = () => {
                           {skill.icon}
                         </div>
                         <span className="skill-name">{skill.name}</span>
-                        <span className="skill-percentage">{skill.level}%</span>
+                        <span className="skill-proficiency">{getProficiencyLabel(skill.level)}</span>
                       </div>
                       <div className="skill-bar">
                         <motion.div 

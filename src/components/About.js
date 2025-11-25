@@ -29,17 +29,16 @@ const About = () => {
   };
 
   const stats = [
-    { number: '3+', label: 'Years Experience' },
-    { number: '50+', label: 'Projects Completed' },
-    { number: '25+', label: 'Happy Clients' },
-    { number: '10+', label: 'Awards Won' }
+    { number: '3+', label: 'Años de experiencia' },
+    { number: '50+', label: 'Proyectos completados' },
+    { number: '15+', label: 'Clientes satisfechos' },
+    { number: '5+', label: 'Pasantias realizadas' }
   ];
 
   const interests = [
-    { icon: <FaCode />, title: 'Clean Code', description: 'Writing maintainable and scalable code' },
-    { icon: <FaPalette />, title: 'UI/UX Design', description: 'Creating beautiful user experiences' },
-    { icon: <FaRocket />, title: 'Innovation', description: 'Exploring new technologies and trends' },
-    { icon: <FaHeart />, title: 'Passion', description: 'Love for creating digital solutions' }
+    { icon: <FaCode />, title: 'Clean Code', description: 'Escribo codigo mantenible y escalable' },
+    { icon: <FaPalette />, title: 'UI/UX Design', description: 'Creo interfaces de usuario atractivas y funcionales' },
+    { icon: <FaRocket />, title: 'Innovation', description: 'Exploro nuevas tecnologias y tendencias' }
   ];
 
   return (
@@ -58,7 +57,7 @@ const About = () => {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
               transition={{ duration: 0.6 }}
             >
-              About <span className="gradient-text">Me</span>
+              Sobre <span className="gradient-text"> mi</span>
             </motion.h2>
             
             <motion.p 
@@ -67,9 +66,7 @@ const About = () => {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              I'm a passionate full-stack developer with over 3 years of experience creating 
-              digital solutions that make a difference. My journey began with a curiosity 
-              about how things work, which led me to explore the world of programming and design.
+              Soy un programador full-stack dedicado, con mas de 3 años de experiencia en la industria.
             </motion.p>
             
             <motion.p 
@@ -78,9 +75,7 @@ const About = () => {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              I specialize in modern web technologies and have a keen eye for design. 
-              My goal is to bridge the gap between beautiful design and functional code, 
-              creating experiences that users love.
+              Me especializo en soluciones de analisis de datos y desarrollo de software. Trabajando con las ultimas tecnologias para brindar los mejores resultados.
             </motion.p>
 
             <motion.div 

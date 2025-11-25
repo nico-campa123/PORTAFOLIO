@@ -39,7 +39,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              Hi, I'm <span className="gradient-text">Nicolas Campanario</span>
+              Hola, soy <span className="gradient-text">Nicolas Campanario</span>
             </motion.h1>
             
             <motion.h2 
@@ -48,7 +48,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Back end Developer
+              Desarrollador back end
             </motion.h2>
             
             <motion.p 
@@ -57,7 +57,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              I develop efficient and secure back end solutions. Passionate about clean code and cutting-edge technology.
+              Desarrollo soluciones eficientes y seguras back-end. Apasionado sobre buen codigo y tecnologias de vanguardia.
             </motion.p>
             
             <motion.div 
@@ -75,13 +75,7 @@ const Hero = () => {
                 Download CV
               </motion.button>
               
-              <motion.button 
-                className="btn-secondary"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                View Projects
-              </motion.button>
+              
             </motion.div>
           </motion.div>
 
