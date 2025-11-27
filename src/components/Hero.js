@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTwitter, FaDownload } from 'react-icons/fa';
+import profileImage from '../assets/images/campa.jpg';
 import './Hero.css';
 
 const Hero = () => {
@@ -87,9 +88,11 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <div className="image-container glass">
-              <div className="placeholder-avatar">
-                <span>AJ</span>
-              </div>
+              <img
+                src={profileImage}
+                alt="Nicolas Campanario"
+                className="profile-image"
+              />
             </div>
           </motion.div>
         </motion.div>

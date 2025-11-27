@@ -35,7 +35,7 @@ const Projects = () => {
       title: 'Manpa Tech',
       description: 'Una pagina de analisis de exoplanetas basada en datos publicos de la NASA.',
       image: '/api/placeholder/400/300',
-      technologies: ['JavaScript', 'FastAPI', 'Figma'],
+      technologies: ['Render', 'FastAPI', 'Jupyter'],
       github: 'https://github.com/nico-campa123',
       live: 'https://example.com',
       featured: false
@@ -75,10 +75,10 @@ const Projects = () => {
             variants={itemVariants}
           >
             <h2 className="section-title">
-              My <span className="gradient-text">Projects</span>
+              Mis <span className="gradient-text"> proyectos</span>
             </h2>
             <p className="section-description">
-              Here are some of my recent projects that showcase my skills and creativity.
+              Algunos proyectos que muestren mis habilidades.
             </p>
           </motion.div>
 

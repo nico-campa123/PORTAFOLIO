@@ -154,7 +154,7 @@ const Contact = () => {
               animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 30 }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              <h3 className="form-title">Send Message</h3>
+              <h3 className="form-title">Enviar mensaje</h3>
               
               <div className="form-group">
                 <input
